@@ -1,0 +1,9 @@
+.expense-item {
+  display: flex;
+}
+.expense-item__date {
+  margin-right: 10%;
+}
+.expense-item__description {
+  margin-right: 10%;
+}
