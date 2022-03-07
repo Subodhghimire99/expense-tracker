@@ -1,0 +1,7 @@
+.expenses {
+  display: inline-block;
+  padding: 10px;
+  flex-direction: column;
+  border: 2px solid red;
+  border-radius: 10px;
+}
