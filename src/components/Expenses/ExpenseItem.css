@@ -1,6 +1,6 @@
 .expense-item {
+  width: 50vw;
   display: grid;
-  padding: 10px;
   margin-bottom: 10px;
   grid-template-areas: "date description price";
   grid-gap: 20px;
@@ -9,11 +9,19 @@
 .expense-item__date {
   grid-area: date;
   margin-left: 10px;
+  height: fit-content;
 }
 .expense-item__description {
   grid-area: description;
-  margin-left: 10px;
+  border: 2px solid grey;
+  background-color: grey;
+  padding: 10px;
+  justify-content: center;
 }
 .expense-item__price {
   grid-area: price;
+  border: 2px solid grey;
+  background-color: grey;
+  padding: 10px;
+  justify-content: center;
 }

@@ -8,8 +8,8 @@ const ExpenseItem = (props) => {
       <div className="expense-item__date">
         <ExpenseDate date={props.date}></ExpenseDate>
       </div>
-      <div className="expense-item__description">{props.title}</div>
-      <div className="expense-item__price">Rs{props.amount}</div>
+      <Card className="expense-item__description">{props.title}</Card>
+      <Card className="expense-item__price">Rs{props.amount}</Card>
     </Card>
   );
 };
